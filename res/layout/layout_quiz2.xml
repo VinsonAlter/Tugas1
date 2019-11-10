@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz2" >
+
+    <TextView
+        android:id="@+id/tvjudulquiz2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUIZ 2" />
+
+    <EditText
+        android:id="@+id/angka3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvjudulquiz2"
+        android:hint="Masukkan angka A" />
+
+    <EditText
+        android:id="@+id/angka4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/angka3"
+        android:hint="Masukkan angka B" />
+
+    <EditText
+        android:id="@+id/angka5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/angka4"
+        android:hint="Masukkan angka C" />
+
+    <Button
+        android:id="@+id/btnbanding2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/angka5"
+        android:text="BANDINGKAN" />
+
+    <TextView
+        android:id="@+id/kesimpulan1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnbanding2"
+        android:text="KESIMPULAN :" />
+
+    <TextView
+        android:id="@+id/tvhasilbanding2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kesimpulan1" />
+
+</RelativeLayout>
