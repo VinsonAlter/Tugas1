@@ -1,6 +1,5 @@
 package com.example.latihan101;
 
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.Button;
@@ -11,7 +10,7 @@ import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 
-public class Quiz1 extends Activity{
+public class Quiz extends Activity{
 	
 
 	TextView ehasilbanding1;
@@ -23,7 +22,7 @@ public class Quiz1 extends Activity{
 	@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layout_quiz1);
+        setContentView(R.layout.layout_quiz);
         
         bangka1  = (EditText)findViewById(R.id.angka1);
         bangka2  = (EditText)findViewById(R.id.angka2);
@@ -49,5 +48,3 @@ public class Quiz1 extends Activity{
         	
         });
 	}}
-
-        

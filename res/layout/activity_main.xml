@@ -8,17 +8,10 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-     <Button
-        android:id="@+id/btnquiz1"
+     <ListView
+        android:id="@+id/listview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="QUIZ 1" />
-    
-    <Button
-        android:id="@+id/btnquiz2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/btnquiz1"
-        android:text="QUIZ 2" />
+        />
 
 </RelativeLayout>

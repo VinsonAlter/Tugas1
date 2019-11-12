@@ -3,46 +3,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Quiz1" >
-
-    <TextView
-        android:id="@+id/tvjudulquiz1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="QUIZ 1" />
+    tools:context=".Profil" >
 
     <EditText
-        android:id="@+id/angka1"
+        android:id="@+id/tvnamasiswa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/tvjudulquiz1"
-        android:hint="Masukkan angka A" />
+        android:hint="NAMA" />
 
     <EditText
-        android:id="@+id/angka2"
+        android:id="@+id/tvnomornim"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/angka1"
-        android:hint="Masukkan angka B" />
+        android:layout_below="@+id/tvnamasiswa"
+        android:hint="NIM" />
+
+    <EditText
+        android:id="@+id/tvprodi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvnomornim"
+        android:hint="PRODI" />
+
+    <EditText
+        android:id="@+id/tvnamafakultas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvprodi"
+        android:hint="FAKULTAS" />
 
     <Button
-        android:id="@+id/btnbanding1"
+        android:id="@+id/tvjelaskan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/angka2"
-        android:text="BANDINGKAN" />
+        android:layout_below="@+id/tvnamafakultas"
+        android:hint="PENJELASAN" />
 
     <TextView
-        android:id="@+id/kesimpulan"
+        android:id="@+id/tvketik"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btnbanding1"
-        android:text="KESIMPULAN :" />
-
-    <TextView
-        android:id="@+id/tvhasilbanding1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/kesimpulan" />
+        android:layout_below="@+id/tvjelaskan" />
 
 </RelativeLayout>
